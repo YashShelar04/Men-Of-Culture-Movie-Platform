@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        body{
+            margin:0;
+            padding: 0;
+        }
+        img{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background-color: rgba(0, 0, 0);
+            z-index: 1;
+        }
+
+        .container{
+            font-size: larger;
+        }
+        .container h1{
+            position: fixed;
+            margin-left: 45%;
+            margin-top: 20vh;
+            color: rgb(255, 255, 255);
+            z-index: 5;
+            text-decoration:underline;
+        }
+        .container p{
+            position: fixed;
+            justify-content: center;
+            padding: 20px;
+            align-items: center;
+            margin-left: 25vw;
+            margin-right: 25vw;
+            margin-top: 25vh;
+            color: rgba(255, 255, 255, 0.7);
+            z-index: 3;
+            font-family: cursive
+        }
+        .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+} 
+.navbar {
+    position: fixed;
+    top: 0;
+    background-color: rgba(0, 0, 0,0);
+    padding: 10px 0;
+    z-index: 3;
+    width: 100%; 
+}
+#logo{
+    display: inline-blocks;
+    width: 100px;
+    height: inherit;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+.navdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100vw;
+    margin: 0 10px;
+    padding: 0 10px;
+}
+
+.logo a {
+    color: white;
+    font-size: 1.5rem;
+    font-family: monospace;
+    text-decoration: none;
+    margin-left: 89px
+}
+ul{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    width: max-content;
+}
+
+li a{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 100px;
+    margin-left: 10px;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+button{
+    background-color: rgb(253, 0, 0);
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+    border: none;
+    margin-right: 20px;
+}
+button a{
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <div class="overlay">
+    </div>
+    <nav class="navbar">
+        <div class="navdiv">
+            <img src="https://yt3.googleusercontent.com/N_x8PwnZO6O5Vq0eTl9XEfN9zKmZKqjap4_lz1zNJjTGFgqiBHMw10H9Zx12eoaNqIpPISngmis=s176-c-k-c0x00ffffff-no-rj" alt="logo" id="logo">
+            <div class="logo">
+                <a href="">MEN OF CULTURE</a>
+            </div>
+            <ul>
+                <li><a href="Home">Home</a></li>
+                <li><a href="About">About</a></li>
+                <li><a href="Contact">Contact</a></li>
+                <button><a href="SignIn">SignIn</a></button>
+                <button><a href="SignUp">SignUp</a></button>
+            </ul>
+        </div>
+    </nav>
+
+    <img src="https://images3.alphacoders.com/133/1338664.png" alt="background_image">
+    
+    <div class="container">
+        <h1>About</h1>
+        <p>Welcome to Men of Culture, the platform where your opinions on movies take center stage! We believe that every movie enthusiast has a unique perspective to share, and our platform is dedicated to amplifying those voices. Whether you're a casual viewer or a dedicated cinephile, Men of Culture is your space to express, discuss, and engage with movies like never before.<br>
+
+            At Men of Culture, we value diversity of thought and encourage respectful dialogue. You can write reviews, share your favorite movie quotes, recommend hidden gems, or even critique the latest blockbusters. Our platform is designed to be intuitive and user-friendly, making it easy for you to navigate and contribute.<br>
+            
+            Join our community of movie lovers, and let your voice be heard. Dive into discussions about your favorite films, discover new genres, and connect with like-minded individuals who share your passion for cinema. Men of Culture is more than just a platform—it's a celebration of the art of filmmaking and the power of storytelling.<br>
+            
+            So, what are you waiting for? Start sharing your thoughts, sparking conversations, and exploring the world of movies with Men of Culture today!</p>
+    </div>
+    
+</body>
+</html>

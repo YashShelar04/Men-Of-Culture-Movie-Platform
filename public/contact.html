@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        body{
+            overflow: hidden;
+            z-index: 1;
+            background: linear-gradient(to bottom, #ff8800, #ff0000);
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            background-color: rgb(255, 255, 255);
+            margin: 150px 450px;
+            height: 515px;
+            width: 40vw;
+            border-radius: 20px;
+            z-index: 2;
+        }
+        .container img{
+            position: fixed;
+            display: inline-block;
+            width: 100px;
+            height:auto;
+            padding: 20px 150px;
+            padding-bottom: 0px;
+            z-index: 2;
+            /* mix-blend-mode: multiply; */
+        }
+
+        .container a{
+            position: relative;
+            display: block;
+            font-weight: bold;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            padding-top: 40px;
+            padding-bottom: 0px;
+            padding-left: 50px;
+            margin-left: 40%;
+            margin-bottom: 18%;
+            height: 15px;
+            text-decoration: none;
+            font-size: 30px;
+            z-index: 2;
+            color: rgb(0, 0, 0);
+        }
+        .navbar {
+    position: fixed;
+    top: 0;
+    background-color: rgba(0, 0, 0,0);
+    padding: 10px 0;
+    z-index: 3;
+    width: 100%; 
+}
+#logo{
+    display: inline-blocks;
+    width: 100px;
+    height: inherit;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+.navdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100vw;
+    margin: 0 10px;
+    padding: 0 10px;
+}
+
+.logo a {
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    font-family: monospace;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 20px
+}
+ul{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    width: max-content;
+}
+
+li a{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 100px;
+    margin-left: 10px;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+button{
+    background-color: #ffffff;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 90px;
+    border: none;
+    margin-right: 20px;
+}
+button a{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navdiv">
+            <img src="https://yt3.googleusercontent.com/N_x8PwnZO6O5Vq0eTl9XEfN9zKmZKqjap4_lz1zNJjTGFgqiBHMw10H9Zx12eoaNqIpPISngmis=s176-c-k-c0x00ffffff-no-rj" alt="logo" id="logo">
+            <div class="logo">
+                <a href="">MEN OF CULTURE</a>
+            </div>
+            <ul>
+                <li><a href="Home">Home</a></li>
+                <li><a href="About">About</a></li>
+                <li><a href="Contact">Contact</a></li>
+                <button><a href="SignIn">SignIn</a></button>
+                <button><a href="SignUp">SignUp</a></button>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <img src="https://cdn-icons-png.flaticon.com/512/87/87390.png" alt="instagram"> 
+        <a href="https://www.instagram.com/yashshelar212/">Instagram</a>
+        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Github"> 
+        <a href="https://github.com/YashShelar04">GitHub</a>
+        <img src="https://cdn-icons-png.flaticon.com/512/4138/4138173.png" alt="Linkedin"> 
+        <a href="https://www.linkedin.com/in/yash-shelar-373372205/">Linkedin</a>
+    </div>
+    
+</body>
+</html>
