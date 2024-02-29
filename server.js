@@ -10,6 +10,10 @@ app.get('/Home',(req,res)=>{
     res.sendFile('./public/about.html', { root: __dirname });
 }).get('/Contact',(req,res)=>{
     res.sendFile('./public/contact.html', { root: __dirname })
+}).get('/SignUp',(req,res)=>{
+    res.sendFile('./public/signup.html', { root: __dirname })
+}).get('/SignIn',(req,res)=>{
+    res.sendFile('./public/signin.html', { root: __dirname })
 })
 
 app.listen(port,(req,res)=>{
